@@ -1,0 +1,20 @@
+These Are Some Common Kotlin Math's Functions -->
+
+Function            Description
+
+PI                  Mathematical constant pi (3.14159...)
+E                   Euler's number (2.71828...)
+sin(x)              Returns the sine of angle x (in radians)
+cos(x)              Returns the cosine of angle x (in radians)
+tan(x)              Returns the tangent of angle x (in radians)
+sqrt(x)             Returns the square root of x
+pow(base, exp)      Returns base raised to the power of exp
+exp(x)              Returns e raised to the power of x
+ln(x)               Returns the natural logarithm (base e) of x
+log10(x)            Returns the logarithm (base 10) of x
+round(x)            Rounds x to the nearest integer
+ceil(x)             Returns the smallest integer greater than or equal to x
+floor(x)            Returns the largest integer less than or equal to x
+abs(x)              Returns the absolute value of x
+max(a, b)           Returns the greater of two values a and b
+min(a, b)           Returns the smaller of two values a and b
