@@ -34,5 +34,5 @@ fun main()
     else
     {
         println(":(")
-    }   
+    }
 }
