@@ -4,9 +4,11 @@ fun main()
 
     val isAdult = true
     val isMale = false
-    val orderCompleted: Boolean? = null
+    val isOrderCompleted: Boolean? = null
+
+    //  Naming Boolean variables as questions is a good practise !
 
     println("Is Adult ? --> $isAdult")
     println("Is Male ? --> $isMale")
-    println("Is Order Completed ? --> $orderCompleted")
+    println("Is Order Completed ? --> $isOrderCompleted")
 }
