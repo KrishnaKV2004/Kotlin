@@ -2,6 +2,9 @@
     Inheritance -->
     A concept of OOPS where a class inherits the properties
     and behaviors from another class
+    Makes code reusable
+    Cannot inherit from multiple classes
+    Parent class constructor is called before child class
 
     ~ open keyword is used to make a class inheritable !
     To understand the context, refer to 27Inheritance.png file !
