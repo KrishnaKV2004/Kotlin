@@ -1,5 +1,3 @@
-import javax.sound.midi.MetaMessage
-
 class calculator    //  If you don't provide any constructor, Kotlin will apply default constructor
 {
     //  lateinit is used when we want to initialize variable later, can't be val, Int, Boolean, Float
