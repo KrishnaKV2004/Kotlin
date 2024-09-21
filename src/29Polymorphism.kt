@@ -7,8 +7,6 @@
     allowing methods to be called on objects of different types
 */
 
-import kotlin.math.*
-
 open class Shape
 {
     open fun area(): Double
@@ -17,7 +15,7 @@ open class Shape
     }
 }
 
-class Circle(val radius:Double): Shape()
+class Circle(private val radius:Double): Shape()
 {
     override fun area(): Double
     {
@@ -25,7 +23,7 @@ class Circle(val radius:Double): Shape()
     }
 }
 
-class Square(val side:Double): Shape()
+class Square(private val side:Double): Shape()
 {
     override fun area(): Double
     {
@@ -49,4 +47,24 @@ fun main()
 
     println("Area Of Circle --> ${cir.area()}")
     println("Area of Square --> ${sqr.area()}")
+    println()
+
+    /*
+        Advantage -->
+        Helps to write maintainable & extensible code !
+        Helps in interacting with objects via common interface !
+        We can make an Array of type shape and calculate the area of all the shapes
+        in the array as shape can hold reference to its children !
+    */
+
+    val shapes: Array<Shape> = arrayOf(Circle(4.0), Square(5.0), Circle(5.0))
+    calcArea(shapes)
+}
+
+fun calcArea(shapes: Array<Shape>)
+{
+    for(shape:Shape in shapes)
+    {
+        println("Area --> ${shape.area()}")
+    }
 }
