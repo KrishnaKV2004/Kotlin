@@ -56,3 +56,19 @@ fun main()
     val innerObject = outerObject.InnerClass()
     println(innerObject.innerMethod())
 }
+
+/*
+    Explanation -->
+
+    Nested Class:
+    Defined inside OuterClass but does not have access to outerProperty.
+    It can be instantiated without creating an instance of the
+    outer class: OuterClass.NestedClass().
+
+    Inner Class:
+    Marked with the inner keyword and has access to outerProperty.
+    It can only be instantiated using an instance of the
+    outer class: outerObject.InnerClass().
+    Inside the innerMethod, we access the outer class's property
+    using outerProperty.
+*/
