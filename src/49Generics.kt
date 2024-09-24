@@ -4,8 +4,6 @@
     Generics in Kotlin allow you to create classes, interfaces, and functions
     that work with any data type while maintaining type safety.
     They make code more flexible and reusable by enabling the same code to operate on various types.
-
-
 */
 
 //  Generic Class -->
