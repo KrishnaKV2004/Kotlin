@@ -49,7 +49,7 @@ fun main()
 }
 
 /*
-     Common Collection Functions -->
+    Common Collection Functions -->
 
     isEmpty() / isNotEmpty(): Checks if a collection is empty.
     size: Returns the number of elements in the collection.
