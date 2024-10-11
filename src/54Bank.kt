@@ -1,3 +1,9 @@
+/*
+    Banking System -->
+
+    Author - Krishna Verma
+*/
+
 import java.util.Scanner
 
 // Data class to represent a Bank Account -->
