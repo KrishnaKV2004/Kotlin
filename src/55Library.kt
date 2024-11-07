@@ -123,7 +123,7 @@ fun viewAvailableBooks(library: LibraryRepository)
 
 fun borrowBook(library: LibraryRepository, libPerson: LibPerson)
 {
-    println("\nEnter the ID of the book to borrow:")
+    println("\nEnter the ID of the book to borrow: ")
     val bookId = readlnOrNull()?.toIntOrNull()
 
     if (bookId != null)
